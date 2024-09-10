@@ -41,6 +41,15 @@ Run the script to see system metrics:
 python monitor.py
 ```
 
+Push update to GitHub
+
+```bash
+git add .
+git commit -m "Updated monitor.py with OOP and PyQt5 GUI; removed README"
+git pull origin main
+git push origin main
+```
+
 ### Contributing
 
 Contributions are welcome! Please fork this repository, create a branch for your feature or bug fix, and send a pull request for review.
