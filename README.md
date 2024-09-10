@@ -24,8 +24,39 @@ Ensure you have the following installed:
 ### Installation
 
 ```bash
+#Clone Repository
 git clone https://github.com/maurcabezas/DevOps-project.git
 cd DeOps-project
+#Create and activate a virtual enviroment
 python3.11 -m venv p11venv
 source p11venv/bin/activate
+#Install required packages
 pip install -r requirements.txt
+```
+
+### Usage
+
+Run the script to see system metrics:
+```bash
+python monitor.py
+```
+
+### Contributing
+
+Contributions are welcome! Please fork this repository, create a branch for your feature or bug fix, and send a pull request for review.
+
+### Future Plans
+
+- Develop a web-based dashboard using Flask or Django.
+- Dockerise the application for easy deployment.
+- Integrate with cloud platforms like AWS.
+- Implement CI/CD pipelines using Jenkins or GitHub Actions.
+
+### License
+
+This project is open-source and available under the MIT License.
+
+### Contact
+
+For any inquiries or support, please contact me! to maurcabezas@gmail.com
+
