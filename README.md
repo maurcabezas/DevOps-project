@@ -6,8 +6,8 @@ This project monitors server resources like CPU, memory, and disk usage using Py
 ## Setup
 
 ```bash
-git clone https://github.com/maurcabezas/server-monitoring-dashboard.git
-cd server-monitoring-dashboard
-python3 -m venv venv
-source venv/bin/activate
+git clone https://github.com/maurcabezas/DevOps-project.git
+cd DeOps-project
+python3.11 -m venv p11venv
+source p11venv/bin/activate
 pip install -r requirements.txt
